@@ -1,0 +1,20 @@
+[
+  {
+    "question": "How many annual leave days do employees receive?",
+    "context": "Annual Leave Policy:\nEmployees receive 20 days of annual leave each year.\n\nLeave Carry-Forward:\nEmployees can carry forward up to 5 unused annual leave days.",
+    "answer": "Employees receive 20 days of annual leave each year.",
+    "faithfulness_review": "PENDING_MANUAL_REVIEW"
+  },
+  {
+    "question": "How many unused annual leave days can be carried forward?",
+    "context": "Leave Carry-Forward:\nEmployees can carry forward up to 5 unused annual leave days.\n\nAnnual Leave Policy:\nEmployees receive 20 days of annual leave each year.",
+    "answer": "According to the context, an employee can carry forward up to 5 unused annual leave days.",
+    "faithfulness_review": "PENDING_MANUAL_REVIEW"
+  },
+  {
+    "question": "What is the company's maternity leave policy?",
+    "context": "",
+    "answer": "I don't have enough relevant information in the HR policy documents to answer that question.",
+    "faithfulness_review": "PENDING_MANUAL_REVIEW"
+  }
+]

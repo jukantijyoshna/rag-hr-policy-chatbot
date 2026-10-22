@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-10-15T16:24:01.294190+00:00",
+  "model": "llama3.2:3b",
+  "max_distance": 0.8,
+  "top_k": 3,
+  "total_cases": 6,
+  "summary": {
+    "faithfulness_percent": 100.0,
+    "answer_relevance_percent": 100.0,
+    "abstention_correctness_percent": 100.0,
+    "faithfulness_labelled": 6,
+    "relevance_labelled": 6,
+    "abstention_cases_correct": 6
+  },
+  "results": [
+    {
+      "id": "Q1",
+      "question": "How many annual leave days do employees receive?",
+      "should_answer": true,
+      "expected_facts": [
+        "20 days of annual leave each year"
+      ],
+      "retrieved_context": "Annual Leave Policy:\nEmployees receive 20 days of annual leave each year.\n\nLeave Carry-Forward:\nEmployees can carry forward up to 5 unused annual leave days.",
+      "retrieval_distances": [
+        0.3373,
+        0.6659
+      ],
+      "answer": "Employees receive 20 days of annual leave each year.",
+      "answered": true,
+      "faithful": true,
+      "answer_relevant": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "Q2",
+      "question": "How many unused annual leave days can be carried forward?",
+      "should_answer": true,
+      "expected_facts": [
+        "Up to 5 unused annual leave days"
+      ],
+      "retrieved_context": "Leave Carry-Forward:\nEmployees can carry forward up to 5 unused annual leave days.\n\nAnnual Leave Policy:\nEmployees receive 20 days of annual leave each year.",
+      "retrieval_distances": [
+        0.374,
+        0.4815
+      ],
+      "answer": "5 unused annual leave days can be carried forward.",
+      "answered": true,
+      "faithful": true,
+      "answer_relevant": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "Q3",
+      "question": "How many days per week can employees work remotely?",
+      "should_answer": true,
+      "expected_facts": [
+        "Two days per week"
+      ],
+      "retrieved_context": "Remote Work Policy:\nEmployees can work remotely two days per week.",
+      "retrieval_distances": [
+        0.2788
+      ],
+      "answer": "Employees can work remotely two days per week.",
+      "answered": true,
+      "faithful": true,
+      "answer_relevant": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "Q4",
+      "question": "How long do managers have to approve leave requests?",
+      "should_answer": true,
+      "expected_facts": [
+        "Within two business days"
+      ],
+      "retrieved_context": "Leave Application:\nEmployees must submit leave requests through the HR portal.\nManagers approve leave requests within two business days.",
+      "retrieval_distances": [
+        0.4729
+      ],
+      "answer": "Managers have two business days to approve leave requests.",
+      "answered": true,
+      "faithful": true,
+      "answer_relevant": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "Q5",
+      "question": "What is the company's maternity leave policy?",
+      "should_answer": false,
+      "expected_facts": [],
+      "retrieved_context": "",
+      "retrieval_distances": [
+        1.1191,
+        1.2091,
+        1.2953
+      ],
+      "answer": "I don't have enough relevant information in the HR policy documents to answer that question.",
+      "answered": false,
+      "faithful": true,
+      "answer_relevant": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "Q6",
+      "question": "Who is the CEO of the company?",
+      "should_answer": false,
+      "expected_facts": [],
+      "retrieved_context": "",
+      "retrieval_distances": [
+        1.8547,
+        1.9455,
+        1.9496
+      ],
+      "answer": "I don't have enough relevant information in the HR policy documents to answer that question.",
+      "answered": false,
+      "faithful": true,
+      "answer_relevant": true,
+      "abstention_correct": true
+    }
+  ]
+}
